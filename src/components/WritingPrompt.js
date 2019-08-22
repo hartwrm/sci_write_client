@@ -22,7 +22,7 @@ componentDidMount(){
             {
               this.state.prompts.map(prompt =>
               <div key={prompt.id}>
-                <h3>{prompt.writing_prompt}</h3>
+                <h3><a href="http://localhost:3000/prompts/id">{prompt.writing_prompt}</a></h3>
               </div>
               )
             }
